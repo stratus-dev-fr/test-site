@@ -1,0 +1,43 @@
+.editor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.editor-buttons button {
+  transition: .15s;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: none;
+  border: none;
+  opacity: .8;
+
+  padding: 10px;
+}
+
+.editor-buttons button:hover {
+  transition: .15s;
+
+  background: whitesmoke;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.editor-buttons img {
+  width: 3vw;
+  height: 3vw;
+}
+
+.DraftEditor-root {
+  background-color: whitesmoke;
+  border-radius: 10px;
+
+  width: 60vw;
+  padding: 3vw;
+}
+
+.public-DraftEditorPlaceholder-root {
+  opacity: .4;
+}
