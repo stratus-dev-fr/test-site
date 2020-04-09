@@ -1,14 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-export default function Welcome (props) {
-  const url = window.location.href
-  const param = window.location.pathname
-
+export default function Welcome () {
   return (
     <div>
       <h1>Welcome</h1>
 
-      {param}
+      <Link to='/Article/1234'>Go to article</Link>
     </div>
   )
 }
